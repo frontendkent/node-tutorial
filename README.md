@@ -1,10 +1,12 @@
 # Node Tutorial
 On Tuesday September 13, 2016, James Michael Maltby gave us an Introduction to Node.js. This repository contains the Presentation and Example Code.
 
+## Viewing the Presentation
+You can view the presentation [here](https://github.com/internetexplorers/node-tutorial/blob/master/Slides.pdf).
 
-## Trying out the samples
+## Running the Examples
 
-Make sure to [download](https://nodejs.org/en/download/) the Node.js command tools for your platform: 
+Make sure you have [downloaded](https://nodejs.org/en/download/) the Node.js command tools for your platform.
 
 	npm install
     node example1
