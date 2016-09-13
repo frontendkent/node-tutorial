@@ -7,7 +7,6 @@ var express = require('express');
 
 /* ****** Variables ****** */
 
-var numberRequests = 1;
 var app = express();
 
 
@@ -34,7 +33,7 @@ app.get('/multiply/:x/:y', function( req, res, next ) {
 });
 
 app.get('/multiply*', function( req, res ) {
-	res.send( 'Syntax: /multiply/[number1]/[number2]' );
+	res.status(500).send( 'Syntax: /multiply/[number1]/[number2]' );
 });
 
 

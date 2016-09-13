@@ -5,9 +5,12 @@ var express = require('express');
 var consolidate = require('consolidate'); 
 var sass = require('node-sass');
 
+
+
+
+
 /* ****** Variables ****** */
 
-var numberRequests = 1;
 var app = express();
 
 
@@ -18,12 +21,14 @@ var app = express();
 app.engine('shtml', consolidate.swig);
 app.set('view engine', 'shtml');
 
-app.use( express.static('./public') );
-
 
 
 
 /* ****** Routes ****** */
+
+app.use( express.static('./public') );
+
+
 
 app.get('/styleguide.css', function( req, res ) {
 	var filename = __dirname + '/views/styleguide.scss';
