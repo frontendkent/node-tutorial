@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Node Tutorial</title>
+		<link rel="stylesheet" type="text/css" href="/styleguide.css">
+	</head>
+	<body>
+		<h1>You requested: /{{page}}</h1>
+		<h2>{{datetime}}</h2>
+	</body>
+	<script>
+
+	</script>
+</html>

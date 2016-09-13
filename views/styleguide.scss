@@ -1,0 +1,19 @@
+
+$bk:  rgb( random(255), random(255), random(255) );
+
+body {
+	margin:0;
+	padding:10%;
+	color:#222;
+	text-align:center;
+	font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;
+	font-weight:300;
+	background-color: $bk;
+}
+
+h1, h2 {
+	font-weight:300;
+	background-color: white;
+	margin:0;
+	padding:1em;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Node Tutorial",
+  "version": "1.0.0",
+  "description": "On Tuesday September 13, 2016, James Michael Maltby gave us an Introduction to Node.js. This package the example code.",
+  "main": "example1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "git": "https://github.com/internetexplorers/node-tutorial.git",
+  "author": "James Michael Maltby <jamesmaltby@me.com> (https://github.com/internetexplorers)",
+  "private": false,
+  "dependencies": {
+    "consolidate": "0.14.1",
+    "express": "4.14.0",
+    "node-sass": "3.9.3",
+    "swig": "1.4.2"
+  }
+}
